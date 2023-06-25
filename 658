@@ -19,15 +19,4 @@
         "TOKENIZERS_PARALLELISM": "false",
         "CUDA_VISIBLE_DEVICES": "1"
       }
-    },
-    {
-      "name": "Debug Patching",
-      "type": "python",
-      "request": "launch",
-      "cwd": "${workspaceFolder}/model/model_training",
-      "program": "models/test_patched_gpt_neox.py",
-      "console": "integratedTerminal",
-      "justMyCode": true,
-      "env": {
-        "CUDA_VISIBLE_DEVICES": "0"
-      }
+   
