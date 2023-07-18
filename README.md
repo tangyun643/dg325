@@ -1,17 +1,1 @@
-# dg325
-# Base-----------------------------------
-matplotlib>=3.2.2
-opencv-python>=4.6.0
-Pillow>=7.1.2
-PyYAML>=5.3.1
-requests>=2.23.0
-scipy>=1.4.1
-torch>=1.7.0
-torchvision>=0.8.1
-tqdm>=4.64.0
-
-pandas>=1.1.4
-seaborn>=0.11.0
-
-# Ultralytics-----------------------------------
-ultralytics == 8.0.120
+Negatives are a very powerful tool to get rid of contextually similar or related topics, but be careful when adding them since the AI might see connections you can't, and end up outputting gibberish
